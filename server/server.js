@@ -11,7 +11,7 @@ const app = express();
 const port = process.env.PORT || 4000
 connectDB();
 
-const allowedOrgins = ['http://localhost:5173']
+const allowedOrgins = ['https://wazir7-frontend.onrender.com/']
 
 app.use(express.json());
 app.use(cookieParser());
