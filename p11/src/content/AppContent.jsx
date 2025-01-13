@@ -8,7 +8,7 @@ export const AppContextProvider = (props)=>{
 
     axios .defaults.withCredentials = true;
 
-    const backendUrl = "https://wazir7-backend.onrender.com"
+    const backendUrl =  import.meta."https://wazir7-backend.onrender.com"
     const [isLoggedin, setIsLoggedin] = useState(false)
     const [userData, setUserData] = useState(false)
 
